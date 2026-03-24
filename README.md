@@ -1,8 +1,8 @@
 # Human Kraken2 Database Builder
 
 ## Description
-A script to build a Kraken2 database containing only human reference sequences, by which human genetic reads in sequencing data were filtered.
-The build_human_kraken2_db.sh script extract human reference accession from official Kraken2 standard library, setting up a customized database.
+A script to build a Kraken2 database containing only human reference sequences, used for filtering out human-derived reads from sequencing data.
+The `build_human_kraken2_db.sh` script retrieves human reference sequences from the official Kraken2 standard library (specifically GRCh38 and T2T-CHM13v2.0) and creates a custom database.
 
 ## Dependencies
 - **Kraken2** (>= 2.1.0)
